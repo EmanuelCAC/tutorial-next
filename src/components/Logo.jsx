@@ -1,7 +1,9 @@
+import { FaReact} from "react-icons/fa";
+
 const Logo = () => {
   return (
-    <div className="border-2 border-orange-500 rounded-2xl w-fit h-fit">
-      <h1 className="text-4xl font-bold p-3  text-nowrap">Logo 2</h1>
+    <div>
+      <FaReact className="text-orange-600 w-16 h-16" />
     </div>
   )
 }
